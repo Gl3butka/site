@@ -1,0 +1,303 @@
+/*img{
+    width: 300px;
+    height: 200px;
+}
+
+h1{
+	font-size: 60px;
+	color: green;
+}
+
+p{
+	font-size: 30px;
+	color: blue;
+}*/
+
+
+
+
+/*.div-2 {
+	background-color: green;
+}
+
+.div3 {
+	background-image: url(../img/image.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+	width: 200px;
+	height: 100px;
+
+}*/
+@import url('https://fonts.googleapis.com/css2?family=Philosopher:wght@700&family=Roboto&display=swap');
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body {
+
+    width: 100%;
+    box-sizing: border-box;
+	font-family: "Roboto";
+    margin: 0;
+    padding: 0;
+}
+
+a {
+	text-decoration: none;
+}
+
+
+
+.home{
+	width: 100%;
+	min-height: 700px;
+	position: relative;
+
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+	align-items: center;
+	background-image: url(../img/fon-mag.jpg);
+	background-size: cover;
+	background-position: top;
+	
+	background-repeat: no-repeat;
+
+}
+header{
+	width: 100%;
+	min-height: 80px;
+	padding: 10px;
+	padding-left: 30px;
+	padding-right: 30px;
+
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+
+
+}
+header>h2{
+	font-size: 28px;
+	color: #fff;
+	
+	letter-spacing: 2px;
+	font-weight: 600;
+}
+header>nav{
+	
+	width: 600px;
+	min-height: 40px;
+
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;	
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-end;
+	align-items: center;
+	
+}
+
+header>nav>a{
+	margin-left: 10px;
+	margin-right: 10px;
+	color: #fff;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	font-weight: 600;
+}
+
+.home-content{
+	width: 80%;
+	min-height: 200px;
+	padding: 10px;
+	
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	margin-top: 50px;
+
+}
+
+.home-content>h1{
+	
+	margin-bottom: 30px;
+	font-size: 84px;
+	color: #fff;
+	text-transform: uppercase;
+	letter-spacing: 4px;
+	font-weight: 600;
+}
+.home-content>h1>b{
+	color: black;
+	font-size: 94px;
+
+}
+.home-content>p{
+
+	margin-bottom: 30px;
+	font-size: 30px;
+	color: #fff;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	font-weight: 600;
+}
+
+.home-content>a {
+	text-decoration: none;
+
+	font-size: 20px;
+	color: #fff;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	font-weight: 600;
+	border: 2px solid white;
+
+	border-radius: 30px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-left: 30px;
+	padding-right: 30px;
+	transition: all 0.3s;
+}
+.home-content>a:hover{
+	border: 2px solid black;
+	background-color: white;
+	color: black;
+
+}
+
+.snejinka{
+	width: 500px;
+	position: absolute;
+	top: 0;
+	left: 50px;
+	
+}
+
+.video-box{
+	width: 100%;
+	min-height: 400px;
+	
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	flex-wrap: wrap;
+
+}
+
+.video-item{
+	width: 400px;
+	min-height: 260px;
+	box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+	margin: 30px;
+	background-color: #000;
+
+}
+.video-item  > iframe { margin:0; }
+
+.more{
+	width: 100%;
+	min-height: 5px;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	margin-bottom: 20px;
+}
+
+.more > a {
+	width: 300px;
+	min-height: 50px;
+	background-color: blue;
+	color: white;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	border-radius: 20px;
+	font-weight: 600;
+	text-transform: uppercase;
+	font-size: 20px;
+	letter-spacing: 2px;
+	box-shadow: 0 5px 0 #3C93D5;
+	background: #55acee;
+	transition: 0.3s;
+}
+.more > a:hover {
+/*  background: #6FC6FF;
+*/  box-shadow: 0 2px 0 #3C93D5;
+	margin-top: 3px;
+}
+
+.about{
+	width: 100%;
+	min-height: 30px;
+
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	padding: 30px;
+	background-color: #55acee;
+}
+
+.about > h2{
+	font-size: 42px;
+	color: white;
+	text-transform: uppercase;
+	margin-bottom: 20px;
+}
+
+.about-photo{
+	width: 400px;
+	height: 300px;
+	background-image: url(../img/games.jpg);
+	background-size: cover;
+	background-position: center;
+	
+	background-repeat: no-repeat;
+	margin-bottom: 20px;
+	border-radius: 10px;
+}
+
+.about-txt > p{
+	text-align: center;
+	font-size: 20px;
+	color: white;
+
+}
+.about-txt{
+	width: 60%;
+}
+.gallery{
+	width: 100%;
+	min-height: 600px;
+	padding: 10px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+.gallery-photos{
+	width: 80%;
+	min-height: 300px;
+	border: 2px solid black;
+}
+.photo{
+	height: 200px;
+	width: 300px;
+	background-image: url(../img/games.jpg);
+	background-size: cover;
+	background-position: center;
+	
+	background-repeat: no-repeat;
+	display: block;
+}

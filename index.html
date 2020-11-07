@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>МОЙ сайт</title>
+    
+    <link rel="stylesheet" href="css/main.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1/jquery.js"></script>
+</head>
+<body>
+ 
+    <div class="home">
+        <img src="img/snejinka.png" class="snejinka" alt="">
+        <header>
+            <h2>YT</h2>
+            <nav>
+                <a href="https://www.google.com/">Главная</a>
+                <a href="javascript://0" onclick="slowScroll ('#about')">О канале</a>
+                <a href="">Видео</a>
+                <a href="">Контакты</a>
+            </nav>
+
+        </header>
+        <div class="home-box"></div>
+        <div class="home-content">
+            <h1>GENTLE<b></b>MAN</h1>
+            <p>канал обо всём!</p>
+            <a href="">ссылка на канал</a>
+
+        </div>
+    </div>
+    <div class="video">
+        <div class="video-box">
+            <div class="video-item">
+                <iframe width="400" height="270" src="https://www.youtube.com/watch?v=8WUBm7yl1Tg" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+            <div class="video-item">
+                <iframe width="400" height="270" src="https://www.youtube.com/embed/e3d9tSls6Yc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+            <div class="video-item">
+                <iframe width="400" height="270" src="https://www.youtube.com/embed/bMwLGmKdFL8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+            <div class="video-item">
+                <iframe width="400" height="270" src="https://www.youtube.com/embed/hCtvfDFz_wc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+            <div class="video-item">
+                <iframe width="400" height="270" src="https://www.youtube.com/embed/nsL-5RfZDVA" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+            <div class="video-item">
+                <iframe width="400" height="270" src="https://www.youtube.com/embed/AKc1G0pX2Zk" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+        </div>
+        
+        
+    </div>
+<div class="more">
+    <a href="https://www.youtube.com/channel/UC4qucNU5tmrsFdtNArzzgLQ/videos?view_as=subscriber" target="_blank">Больше видео</a>
+
+</div>
+
+<div class="about" id="about">
+    <!-- <h2>О канале</h2> -->
+    <div class="about-photo">
+    </div>
+    <div class="about-txt">
+        <p>Это мой канал! <br><br> Здесь я делаю обзоры, летсплеи по разным играм, записываю всё о технологиях будущего, делаю челленджи и рассказываю об интересных происшествиях. Здесь, на этой странице зарождается ещё одна жизнь. Всё что остаётся от вас: наслаждаться моими видео, делиться ими с друзьями, обсуждать их, и подбадривать меня своей <b>подпиской и лайком</b>, чтобы видосы выходили ещё чаще, и я был вдохновлён на новое видео!</p>
+    </div>
+</div>
+
+<div class="gallery">
+    <h2>Галерея</h2>
+    <div class="gallery-photos">
+        <a href="img/games.jpg" class="photo"></a>
+      
+
+    
+    </div>
+</div>
+<script>
+        function slowScroll(id) {
+            var offset = 20;
+            $('html, body').animate({
+                scrollTop: $(id).offset().top - offset
+            }, 500);
+            return false;
+        }
+
+</script>
+</body>
+</html>
